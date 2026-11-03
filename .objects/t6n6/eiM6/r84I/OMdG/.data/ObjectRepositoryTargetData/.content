@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Z3sFgcX0i0eEX0ekjJpW5A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="icumed.custhelp.com/AgentWeb" DesignTimeRectangle="572, 457, 1258, 99" DesignTimeScaleFactor="1.100000023841858" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='textbox' tag='DIV' type='' class='oj-flex-item selectable-text zoomFactor ck ck-content ck-editor__editable ck-rounded-corners ck-editor__editable_inline ck-focused' aaname='' /&gt;" Guid="5e0e984f-8fb6-4066-9940-feca478e96b5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b0ffa6a4-16fc-4f91-8774-63e9f3fe8f93" CvElementArea="574, 417, 38, 37" CvType="Button" DesignTimeRectangle="583, 425, 22, 22" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl type='' tag='svg' class='ck ck-icon ck-reset_all-excluded ck-icon_inherit-color ck-button__icon' aaname='' /&gt;" Guid="79eb00a7-6a1d-46d6-8ee8-0c13061e4800" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="44cf649d4f052f7a3fd2a9a642dc78a9.png" xmlns="">0BredwXVHxUO9-6vawJk9Mw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

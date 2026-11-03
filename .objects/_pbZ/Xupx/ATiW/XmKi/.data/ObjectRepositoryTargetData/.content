@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="m6h35GQX7kiCUstHixWOzg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="icumed.custhelp.com/AgentWeb" DesignTimeRectangle="152, 41, 505, 34" DesignTimeScaleFactor="1" ElementType="Toolbar" FullSelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='1001' title='Address: C:\Users\AS00030180\OneDrive - ICU Medical Inc\Desktop\*' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='1001' title='Address: C:\Users\AS00030180\OneDrive - ICU Medical Inc\Desktop\*' check:text='Address: C:\Users\AS00030180\OneDrive - ICU Medical Inc\Desktop\ESK Downloads-Interactions' /&gt;" Guid="fdcb0b52-6872-48fb-84bd-f69af4398db1" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="2ccc46b5-4a62-48e3-b2c1-4ad4d4e645c2" CvElementArea="175, 41, 550, 34" CvType="InputBox" DesignTimeRectangle="657, 41, 34, 34" ElementType="Button" FullSelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Address band' /&gt;&lt;ctrl name='Address band' role='tool bar' /&gt;&lt;ctrl name='Previous Locations' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd cls='ToolbarWindow32' title='Address band' /&gt;&lt;ctrl name='Address band' role='tool bar' /&gt;&lt;ctrl name='Previous Locations' role='push button' automationid='' check:text='Previous Locations' /&gt;" Guid="4197c062-c88d-44a0-a4e9-4829a01a6997" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="68e20f5ba83e65ca88e62879e6101525.png" xmlns="">0v8Kc0a_6JU6v-01MD4JBGA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

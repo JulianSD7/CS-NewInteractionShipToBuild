@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bdfZz0NwLUihgEeoIwi_4g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="c7a9571f-1aa6-4d47-9688-f6c1fcc5f095" CvElementArea="505, 369, 19, 19" CvTextArea="473, 372, 30, 12" CvTextArgument="New" CvType="ArrowButton" DesignTimeRectangle="475, 370, 50, 18" DesignTimeScaleFactor="1.100000023841858" FuzzySelectorArgument="&lt;webctrl aaname='                New                ' class='ws-toolbar-button-content' type='' parentid='ws-toolbar-button-content-div' tag='SPAN' check:innerText='New' /&gt;" Guid="f638fef0-bd0b-445d-a9c4-f9313f3cdf95" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c7a9571f-1aa6-4d47-9688-f6c1fcc5f095" CvElementArea="448, 366, 22, 23" CvType="Icon" DesignTimeRectangle="449, 370, 26, 18" FuzzySelectorArgument="&lt;webctrl type='' class='ws-toolbar-button-image bui-icon new-icon' parentid='ws-toolbar-button-content-div' tag='DIV' aaname='' /&gt;" Guid="dd019f76-12cc-4f98-b9ff-625dae8aaa50" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAWCAYAAADXYyzPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAElSURBVEhL7ZU/aoRAFIe9xZapgrU5gIcQwVuk0oDeQkgfvIB7AQux8AQigoX4B1y2SB9SvPCGCBt/uu4Y1zQpPhh+7818OjiOoigK/REQ7AUEFAQBJUkySRzHZNs2zFkBBJSmKfV9P0vTNOR5HsyTBAIhzrKMdF3/kVuWRVVVbSWHYFFcFAWVZblK/vJ8oLfXBx5jcUncdZ2QDm/uOA6sMUd0fCR6f+IxFufEhmFQnudCztR1LeS+78Mac6wSj3Fdl9q2lRZ/njUeY/He4o/Tv/ibW8WqqpJpmqRpYqGb2ETMcA/L+SHGtSk2E4dhKLabt31cm+LX4uFMDz8SPtNRFEHfFSBYvCS4fhfxtWuR4frQK7vVF0AghezHdQEEewHBXkCwC1/0kMqFHN8pugAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="55ca648f162da97da4a5002665debef7.png" xmlns="">0ypAn6W5njkuKgg-wyNy7-A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

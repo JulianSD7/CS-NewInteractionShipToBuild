@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Y-lh0dC6GECuPgUpbSLJ5g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="we4.ondemand.esker.com/ondemand/webaccess/asg/FlexibleForm/FlexibleForm.aspx" CVScreenId="beacdc46-102e-4d76-a8e9-c455e6d9228f" CvElementArea="659, 532, 289, 29" CvType="InputBox" DesignTimeRectangle="660, 533, 288, 27" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='Shipping_Address_eskCtrlBorder_content' tag='TABLE' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;&lt;webctrl type='text' tag='INPUT' class='input DBComboBox-input fieldError' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="f96e14da-c9e1-44c7-9e41-f60505da5951" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Esker on Demand - Customer Order' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="beacdc46-102e-4d76-a8e9-c455e6d9228f" CvTextArea="588, 541, 55, 13" CvTextArgument="Number" CvType="Text" DesignTimeRectangle="589, 538, 54, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='Shipping_Address_eskCtrlBorder_content' tag='TABLE' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;&lt;webctrl type='' tag='SPAN' class='' aaname='Number' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Number' /&gt;" Guid="ff72654a-dd50-4417-b88c-368b0ad95714" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4a21400bf08e3d45fca59c6e6dd27bc3.png" xmlns="">0SLb15Ie6VUSkaO10yL4snw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

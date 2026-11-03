@@ -1,0 +1,14 @@
+﻿{
+  "Name": "PO number",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "yFcf8RRb3kKtXP7ztGNnqg",
+  "Reference": "pNrPjBvsX0Gf1-QYH__y-g/yFcf8RRb3kKtXP7ztGNnqg",
+  "ParentRef": "pNrPjBvsX0Gf1-QYH__y-g/SW-2iBA1FkaiXRRYY8IYHQ",
+  "Created": "2026-03-03T20:29:54.5463376Z",
+  "Updated": "2026-03-03T20:29:54.5463376Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

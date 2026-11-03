@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CNpeoQsXvEWnFALtMYTV5A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="e6eb9e4e-1159-4300-a1a9-6d9203d0ca46" CvElementArea="551, 534, 202, 39" CvType="InputBox" DesignTimeRectangle="555, 537, 196, 34" DesignTimeScaleFactor="1.100000023841858" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl parentid='Filter_2_7697' tag='INPUT' type='text' class='oj-inputtext-input oj-text-field-input oj-component-initnode' aaname='Email Addresses' /&gt;" Guid="92495bc7-9131-4eb9-bd7f-c676dbb597be" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e6eb9e4e-1159-4300-a1a9-6d9203d0ca46" CvTextArea="552, 516, 103, 13" CvTextArgument="Email Addresses" CvType="Text" DesignTimeRectangle="554, 516, 198, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Email Addresses' tag='LABEL' type='' class='filterPrompt oj-label' check:innerText='Email Addresses' /&gt;" Guid="d081965e-f2e8-4282-b8fd-c69c276fe372" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0f0630f3974f60a8ae03e165b9018c4a.png" xmlns="">0RXQr1sSBOkODPf6ku93Zvg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

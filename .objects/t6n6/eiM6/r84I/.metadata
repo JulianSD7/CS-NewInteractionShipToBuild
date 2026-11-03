@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Oracle ® Service Cloud  icumedical",
+  "Type": "Screen",
+  "Id": "r84ImeMCvUKwRXT1Aat0YA",
+  "Reference": "pNrPjBvsX0Gf1-QYH__y-g/r84ImeMCvUKwRXT1Aat0YA",
+  "ParentRef": "pNrPjBvsX0Gf1-QYH__y-g/eiM6-3XAjUCsMz3C1GEHIg",
+  "Created": "2025-12-01T21:20:20.9786873Z",
+  "Updated": "2025-12-01T21:20:20.9786873Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

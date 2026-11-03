@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Dp_kYNtXsUaFM7fTVLiVdg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="bd1f22fc-eb32-45fc-9b5a-a192dc75d28f" CvElementArea="873, 642, 191, 39" CvTextArea="888, 653, 79, 16" CvTextArgument="Enter Hotkey" CvType="Button" DesignTimeRectangle="876, 644, 185, 34" DesignTimeScaleFactor="1.100000023841858" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='hotKeyTextBox|input' tag='INPUT' type='text' class='oj-inputtext-input oj-text-field-input oj-component-initnode' placeholder='Enter Hotkey' aaname='' /&gt;" Guid="5f69c2c9-8df7-41ef-9d60-d46309d3f6cc" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="bd1f22fc-eb32-45fc-9b5a-a192dc75d28f" CvTextArea="873, 607, 117, 17" CvTextArgument="Standard Text" CvType="Text" DesignTimeRectangle="875, 605, 114, 24" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='SPAN' type='' class='oj-dialog-title' aaname='Standard Text' check:innerText='Standard Text' /&gt;" Guid="955d8e4a-2b7c-4335-89df-33e8f5071218" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6966c94c4fe0a36cd326fdb9dafa1161.png" xmlns="">0UGaF6DWkLUy2uiq5pAmPcQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

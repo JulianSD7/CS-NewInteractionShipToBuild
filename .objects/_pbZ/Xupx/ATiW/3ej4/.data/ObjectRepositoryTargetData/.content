@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="2aZLe0SJ6EG258nXvXIB_A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="272d8416-5b99-4dea-b6c7-d64beae37ef6" CvElementArea="574, 469, 1266, 103" CvType="InputBox" DesignTimeRectangle="584, 529, 1234, 16" DesignTimeScaleFactor="1.100000023841858" FuzzySelectorArgument="&lt;webctrl type='' class='' tag='DIV' aaname='' /&gt;" Guid="0743d0dd-76c8-44fe-a708-e8869f62b521" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="272d8416-5b99-4dea-b6c7-d64beae37ef6" CvElementArea="574, 469, 1266, 103" CvType="InputBox" DesignTimeRectangle="584, 512, 1234, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl type='' class='' isleaf='1' tag='DIV' aaname='Acct# 12345 needs To have a SHIP_TO added And flagged YES For Esker.' check:innerText='Acct# 12345 needs To have a SHIP_TO added And flagged YES For Esker.' /&gt;" Guid="637f4a74-b33e-4d5d-aeae-f66db4c165d4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="ff735791a4650ef379a15f829b25d5a7.png" xmlns="">0YpFADWJUaUqhgwGiFZn4uA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

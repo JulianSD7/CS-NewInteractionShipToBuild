@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="lYJTk0eZJkKwzAI4vTKJNw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="we4.ondemand.esker.com/ondemand/webaccess/asg/FlexibleForm/FlexibleForm.aspx" CVScreenId="0156ce75-bdc3-4a7a-81e6-8d79f08826fe" CvElementArea="161, 664, 287, 28" CvType="InputBox" DesignTimeRectangle="161, 665, 288, 28" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='Customer_Information_eskCtrlBorder_content' tag='TABLE' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;&lt;webctrl type='text' tag='INPUT' class='input DBComboBox-input' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="2174142e-2f53-4df6-a19a-4b7394b50b99" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Esker on Demand - Customer Order' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="0156ce75-bdc3-4a7a-81e6-8d79f08826fe" CvTextArea="103, 673, 41, 14" CvTextArgument="Name" CvType="Text" DesignTimeRectangle="104, 670, 40, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='Customer_Information_eskCtrlBorder_content' tag='TABLE' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;&lt;webctrl type='' tag='SPAN' class='' aaname='Name' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Name' /&gt;" Guid="d734e87d-62fb-4842-bff0-abd69ba6fd58" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="84e64115ace5b491a8c351aec9dfb38e.png" xmlns="">0ZRrWoYGx6kaKg8btiGdRaw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

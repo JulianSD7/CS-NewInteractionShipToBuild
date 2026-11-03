@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="R4M71Y8YCUqdX3N5atkvhw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="433c0443-e355-4d97-958a-bafda275da52" CvElementArea="343, 651, 101, 38" CvTextArea="387, 662, 42, 13" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="388, 661, 41, 17" DesignTimeScaleFactor="1.100000023841858" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Search' tag='SPAN' type='' class='' check:innerText='Search' /&gt;" Guid="45b2b109-2337-4e8c-b52a-3a221e814179" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="433c0443-e355-4d97-958a-bafda275da52" CvElementArea="343, 651, 101, 38" CvType="Button" DesignTimeRectangle="354, 669, 24, 1" FuzzySelectorArgument="&lt;webctrl type='' isleaf='1' tag='SPAN' class='fa fa-search fa-lg fa-fw oj-button-icon' aaname='' /&gt;" Guid="b4a8da55-d8cf-447c-b1df-bfc2185a98ea" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d85b5296e08c6a93114a29761b923840.png" xmlns="">0DmmT7V7gB0-kYXKU4s5qGA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

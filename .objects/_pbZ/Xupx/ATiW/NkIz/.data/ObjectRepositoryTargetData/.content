@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3uU47-ifXECENsNRmSshIQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="e3a947ec-fa9f-43c0-88ca-0c02e7fd1308" CvElementArea="301, 419, 255, 51" CvType="InputBox" DesignTimeRectangle="302, 429, 251, 40" DesignTimeScaleFactor="1.100000023841858" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='Incident_CatId5349' tag='DIV' type='' class='select-box-container' aaname='                              ' /&gt;" Guid="a23cffda-3fec-4aca-a33a-3cd066391985" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="e3a947ec-fa9f-43c0-88ca-0c02e7fd1308" CvElementArea="301, 419, 255, 51" CvType="InputBox" DesignTimeRectangle="317, 436, 68, 16" FuzzySelectorArgument="&lt;webctrl parentid='select-box-label-Incident_CatId5349' tag='DIV' type='' class='oj-label-group' aaname='Category' check:innerText='Category' /&gt;" Guid="7b8afea4-cea9-4182-9bc8-31ab93d4223f" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b7e510835156860239dda80bc9a50e1d.png" xmlns="">0vsINr9UpQUONt_k0PZcQfQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

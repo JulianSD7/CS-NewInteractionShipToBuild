@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Add Private Note",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "QSOgmSd1skiyL-1JHxVoIg",
+  "Reference": "pNrPjBvsX0Gf1-QYH__y-g/QSOgmSd1skiyL-1JHxVoIg",
+  "ParentRef": "pNrPjBvsX0Gf1-QYH__y-g/r84ImeMCvUKwRXT1Aat0YA",
+  "Created": "2025-12-01T21:27:41.5135689Z",
+  "Updated": "2025-12-01T21:27:41.5135689Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

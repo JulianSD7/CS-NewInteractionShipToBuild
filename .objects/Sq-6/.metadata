@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Edge Esker on Demand - Customer Order",
+  "Type": "App",
+  "Id": "Sq-6hUOtmkS6-_WojALPAg",
+  "Reference": "pNrPjBvsX0Gf1-QYH__y-g/Sq-6hUOtmkS6-_WojALPAg",
+  "Created": "2026-02-27T20:16:36.7038726Z",
+  "Updated": "2026-02-27T20:16:36.7038726Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Standard Text",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "tijo1SB_cEWc8Y96jmQddQ",
+  "Reference": "pNrPjBvsX0Gf1-QYH__y-g/tijo1SB_cEWc8Y96jmQddQ",
+  "ParentRef": "pNrPjBvsX0Gf1-QYH__y-g/ATiWVJFMmk-PdWxetbKYhw",
+  "Created": "2025-12-10T16:28:11.8781125Z",
+  "Updated": "2025-12-10T16:28:11.8781125Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

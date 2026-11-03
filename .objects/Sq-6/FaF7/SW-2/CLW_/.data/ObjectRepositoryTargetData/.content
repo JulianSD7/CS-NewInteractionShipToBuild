@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NYa396OsGE2uqBGXg1M3Cg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="we4.ondemand.esker.com/ondemand/webaccess/asg/FlexibleForm/FlexibleForm.aspx" DesignTimeRectangle="660, 819, 288, 127" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='Shipping_Address_eskCtrlBorder_content' tag='TABLE' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;&lt;webctrl type='' tag='TEXTAREA' class='input CaptureAreaDropTarget text-size-S text-color-default' placeholder='Click here, then select the shipping address zone on the order...' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="26927f68-710b-4602-8731-9fa69d114a92" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Esker on Demand - Customer Order' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="529, 824, 114, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='Shipping_Address_eskCtrlBorder_content' tag='TABLE' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;&lt;webctrl type='' tag='SPAN' class='' aaname='Shipping address' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Shipping address' /&gt;" Guid="9af5b7a3-fe6a-40ee-a6e9-fd0317338b41" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7512f5a2d4e81ccda8f122e098f9e238.png" xmlns="">0WwqoH0IRCEiWY32bFH66TQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

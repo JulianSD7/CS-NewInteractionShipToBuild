@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bo0ANV8NmkO2Et2tb-lATg" Reference="pNrPjBvsX0Gf1-QYH__y-g/0mpJirhDRkOdRdHM2rhpqg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="d809b088-a1e9-4e1b-92e9-372e7e1fb26e" CvElementArea="570, 467, 1266, 141" CvType="InputBox" DesignTimeRectangle="572, 467, 1258, 140" DesignTimeScaleFactor="1.100000023841858" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='textbox' tag='DIV' type='' class='oj-flex-item selectable-text zoomFactor ck ck-content ck-editor__editable ck-rounded-corners ck-editor__editable_inline ck-blurred' aaname='' /&gt;" Guid="c35546df-0226-4553-b838-dc4f78373a52" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d2602511-0041-4168-b7ee-a49738daabac" CvElementArea="581, 436, 26, 20" CvType="Icon" DesignTimeRectangle="583, 435, 22, 22" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl type='' tag='svg' class='ck ck-icon ck-reset_all-excluded ck-icon_inherit-color ck-button__icon' aaname='' /&gt;" Guid="d3db8323-d44b-41ec-b7e8-63dabbfa3bb3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACySURBVEhL7ZPbDYAgDEXdiTlYgzlYgzWYgzWYA3NNmphWeRT1Qz1JYyTq4Za6lIdY+MJd/CI1HxSFEIq1li8PUxV574sx5j5Rzrk45zYJrlcgRJAgASWJMTYrpcQ/IxAinAkkmqqlFyIkIhkSYbetQqrWeQoR4DLc90DvQMw5FBGjMjxz1sKqCNAE9ogANqUSjYCWqVrXA413q83Tov1405QeMSXCznt/2inRCL9IzftEKxtp/G1hLM7IAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="9442cf974a60a24ee1ebcb464d59c2c9.png" xmlns="">08qVo_8c3Wkm_0IU-GF3puQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

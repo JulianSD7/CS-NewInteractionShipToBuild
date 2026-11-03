@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ag8DJwxNmkK4ZoxW6oAZWw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="we4.ondemand.esker.com/ondemand/webaccess/asg/FlexibleForm/FlexibleForm.aspx" CVScreenId="4b496836-e2d3-4174-8570-5b0bd916a1a3" CvElementArea="161, 563, 287, 28" CvType="InputBox" DesignTimeRectangle="161, 564, 288, 28" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='Sales_Order_Details_eskCtrlBorder_content' tag='TABLE' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;&lt;webctrl type='' tag='INPUT' class='input CaptureAreaDropTarget text-size-S text-color-default' aaname='PO-000437664' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="049f4891-6748-43b1-8506-99858dd6e690" IsResponsive="True" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Esker on Demand - Customer Order' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4b496836-e2d3-4174-8570-5b0bd916a1a3" CvTextArea="68, 571, 76, 15" CvTextArgument="PO number" CvType="Text" DesignTimeRectangle="68, 569, 76, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='Sales_Order_Details_eskCtrlBorder_content' tag='TABLE' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' /&gt;&lt;webctrl type='' tag='SPAN' class='' aaname='PO number' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='PO number' /&gt;" Guid="097d5d10-9f51-489f-bfb7-1d0bc561fa7e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="65b4192a7cdbf6bea3178943816dcf7d.png" xmlns="">0IhlScZgG0UexMI5WXwEcyg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

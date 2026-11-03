@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JbCYlzSAekSisIepamEsOQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="7ec5c5c6-3c07-4414-ab8b-f6984eb46c6a" CvElementArea="571, 757, 1266, 107" CvType="InputBox" DesignTimeRectangle="584, 835, 1234, 17" DesignTimeScaleFactor="1.100000023841858" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='address' tag='DIV' type='' class='' check:innerText='address' /&gt;" Guid="ca56e8cd-ae5b-4257-ba9b-3646a00095be" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7ec5c5c6-3c07-4414-ab8b-f6984eb46c6a" CvElementArea="571, 757, 1266, 107" CvType="InputBox" DesignTimeRectangle="572, 757, 1258, 107" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='textbox' tag='DIV' type='' class='oj-flex-item selectable-text zoomFactor ck ck-content ck-editor__editable ck-rounded-corners ck-editor__editable_inline ck-focused' aaname='' /&gt;" Guid="8ac029fd-9669-4d56-8a7e-9705f29bb23b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="65ad6235b6092ad00e5c87379a558919.png" xmlns="">0JxlK2-Fdt0uOdmslxjYgkQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

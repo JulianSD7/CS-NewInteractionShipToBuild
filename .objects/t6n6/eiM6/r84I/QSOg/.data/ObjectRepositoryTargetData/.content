@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="6RW5jOuUkE2HRPvxzvk_sA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="4beee8e1-c52c-4d4a-a7cf-d4e9e9a2f59c" CvTextArea="752, 400, 107, 13" CvTextArgument="Add Private Note" CvType="Text" DesignTimeRectangle="754, 399, 104, 17" DesignTimeScaleFactor="1.100000023841858" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Add Private Note' tag='SPAN' type='' class='' check:innerText='Add Private Note' /&gt;" Guid="b20c348e-0f5a-40e7-a68a-cc22a511fdb2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="4beee8e1-c52c-4d4a-a7cf-d4e9e9a2f59c" CvElementArea="730, 395, 19, 20" CvType="Icon" DesignTimeRectangle="732, 397, 14, 17" FuzzySelectorArgument="&lt;webctrl class='entryTypePrivateNote' tag='SPAN' type='' aaname='' /&gt;" Guid="60e1554f-1a1e-4ee3-a9c4-55e441b1d267" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABIAAAAVCAYAAABLy77vAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVDhPY2BgYPhPJYwhQC7GECAXI3O4/q89Kv//Gil4ERc2g/j/X3tn9P//M53/3x8TgV8Z/f9/kh+3QdcmYzgbK55zkq4GZYr/fw/yJjZ8X/x/MdEGOXD8nzJd4P9SbLiH478T0QYpMf0PCmf9H4UN+zP9VyTaIKp5jWouQgujlmhkdRBMnEFoXsOWJIgzCE0TNkw/g6iQ16iW+ynCGALkYgwBsjAAj0Fk4cD/m3QAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="535534c5159d15712764e874fdb1ed49.png" xmlns="">0BW58g-aS4EuvxmF5ocGNdw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

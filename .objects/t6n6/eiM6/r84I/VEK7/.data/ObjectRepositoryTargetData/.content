@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="FO0Wlez4ukiA_Xog_xRk2A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="ca48eea0-64fd-4049-84d2-af3b25827164" CvElementArea="42, 473, 260, 49" CvType="InputBox" DesignTimeRectangle="224, 486, 12, 23" DesignTimeScaleFactor="1.100000023841858" FuzzySelectorArgument="&lt;webctrl isleaf='1' parentid='filtersButtonIncident_CId6695' tag='SPAN' type='' class='icon-filter oj-fwk-icon' aaname='' /&gt;" Guid="af8fa41c-5ab0-4141-9516-7d13f84b99bc" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="ca48eea0-64fd-4049-84d2-af3b25827164" CvTextArea="54, 500, 157, 14" CvTextArgument="L-SM Account Number.." CvType="Text" DesignTimeRectangle="45, 492, 251, 28" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='select-box-input-Incident_CId6695' tag='INPUT' type='' class='select-box-input' placeholder='L-SM Account Number...' aaname='Contact' /&gt;" Guid="636b6d25-4d32-4f3f-8fa5-5ff454902720" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7cc86b3789da0904ab0542cc679c61a1.png" xmlns="">0o_tknTvA0Uedh-5NF_57Eg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

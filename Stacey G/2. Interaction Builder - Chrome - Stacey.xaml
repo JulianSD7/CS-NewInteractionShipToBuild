@@ -1,0 +1,604 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Interaction_Builder___Chrome" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Interaction_Builder___Chrome_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.Studio.Forms.Runtime</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.Forms.Activities</x:String>
+      <x:String>UiPath.Platform.GlobalVariables</x:String>
+      <x:String>UiPath.Forms.Activities.Base</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Presentations.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Word.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Forms.Runtime</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Forms.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap2010:Annotation.AnnotationText="This version is IP - Working on getting this connected to the app. The app will ask for all the same things the form did but also ask for email as well so that the person who is entering this will also be entered as contact." DisplayName="Interaction_Builder___Chrome" sap:VirtualizedContainerService.HintSize="1095,9116" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Chrome - SVC" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,9048" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="68d070a2-4bbe-449d-9de1-0f03023ac056" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,8854" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,313" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="c7a9571f-1aa6-4d47-9688-f6c1fcc5f095" ContentHash="bdfZz0NwLUihgEeoIwi_4g" CvElementArea="505, 369, 19, 19" CvTextArea="473, 372, 30, 12" CvTextArgument="New" CvType="ArrowButton" DesignTimeRectangle="475, 370, 50, 18" DesignTimeScaleFactor="1.100000023841858" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='                New                ' class='ws-toolbar-button-content' type='' parentid='ws-toolbar-button-content-div' tag='SPAN' check:innerText='New' /&gt;" Guid="f638fef0-bd0b-445d-a9c4-f9313f3cdf95" InformativeScreenshot="55ca648f162da97da4a5002665debef7.png" Reference="pNrPjBvsX0Gf1-QYH__y-g/hGN1JlpK70eHjDn7cibIYg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="c7a9571f-1aa6-4d47-9688-f6c1fcc5f095" CvElementArea="448, 366, 22, 23" CvType="Icon" DesignTimeRectangle="449, 370, 26, 18" FuzzySelectorArgument="&lt;webctrl type='' class='ws-toolbar-button-image bui-icon new-icon' parentid='ws-toolbar-button-content-div' tag='DIV' aaname='' /&gt;" Guid="dd019f76-12cc-4f98-b9ff-625dae8aaa50" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAWCAYAAADXYyzPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAElSURBVEhL7ZU/aoRAFIe9xZapgrU5gIcQwVuk0oDeQkgfvIB7AQux8AQigoX4B1y2SB9SvPCGCBt/uu4Y1zQpPhh+7818OjiOoigK/REQ7AUEFAQBJUkySRzHZNs2zFkBBJSmKfV9P0vTNOR5HsyTBAIhzrKMdF3/kVuWRVVVbSWHYFFcFAWVZblK/vJ8oLfXBx5jcUncdZ2QDm/uOA6sMUd0fCR6f+IxFufEhmFQnudCztR1LeS+78Mac6wSj3Fdl9q2lRZ/njUeY/He4o/Tv/ibW8WqqpJpmqRpYqGb2ETMcA/L+SHGtSk2E4dhKLabt31cm+LX4uFMDz8SPtNRFEHfFSBYvCS4fhfxtWuR4frQK7vVF0AghezHdQEEewHBXkCwC1/0kMqFHN8pugAAAABJRU5ErkJggg==" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'New Interaction'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,313" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="d6d29eee-8d4b-4052-89e3-537e4fec8b56" ContentHash="lINrTaMMQkiFJeVHxYHnCw" CvTextArea="474, 403, 66, 13" CvTextArgument="Interaction" CvType="Text" DesignTimeRectangle="450, 402, 197, 18" DesignTimeScaleFactor="1.100000023841858" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='         Interaction     ' id='ws-toolbar-button-content-div' tag='DIV' type='' class='ws-toolbar-button-content' check:innerText='Interaction' /&gt;" Guid="9ff66062-9d6a-45df-872d-89e43485b6b6" InformativeScreenshot="feccd56d9d41d017a2a0d3883ae1f49c.png" Reference="pNrPjBvsX0Gf1-QYH__y-g/56zFkEbZ5UCdHjO8RFu0pg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="d6d29eee-8d4b-4052-89e3-537e4fec8b56" CvElementArea="447, 398, 22, 23" CvType="Icon" DesignTimeRectangle="450, 402, 25, 18" FuzzySelectorArgument="&lt;webctrl type='' parentid='ws-toolbar-button-content-div' tag='DIV' class='ws-toolbar-button-image bui-icon incident-icon' aaname='' /&gt;" Guid="6ab5966e-c4db-45db-b422-22b14cd8e323" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB0AAAAWCAYAAAA8VJfMAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHaSURBVEhLxZRNi0FRGMfvBzBfwBcwH8Da4i7sZCPWPsBITYoioiRJkZeSjYWdl26JSBYWyoIFkqLkLR/jP53T3GvOOXeYmDGL3+L87z3Pr+e55x5JkiT8A0LwDIQARqMRoVAIvV4Pw+EQlUoFsiwL7z0AGzidTsznc5zPZ4bD4YBcLsdvvpfLwmw2YzqdaqJ+v49MJoPj8UjXu90OwWCQL3APl0U2m2W6azQaCAQCtEs1m81mcLvdcLlcGg6HAyaTiS+si/z2wkoHg8FNqQrpmqCuyUR4gR7vyisrHY1GN6X7/R4+n48pRN6r1WqCQA9BSjbzHfGs12t0u11tvVgs0Ol06F5eoIcg9Xq9tBO1YLvdRiqVYjrVK04yvVwPQUooFAo4nU7aKL9+N/IrkdEul0tst1tsNhsoioJWq/WY1GAwIJFI0IKqjHRar9fpL+X3+1EsFjXi8TgVPyRViUajtLNIJIJwOAyPx8PI/kRKTu1kMkEsFkOpVEI6naZXIg+ZwMPj5aV2ux1WqxUWi4W5EFRsNhuazebvSvP5PL0Oq9UqPTw84/GYnvKfSj8RAkZKOuSf8RBhuVwW8isIAYXcr6vVSujsO5LJpFDjCkLwDITgGQjBMxCCP+cD0CAmTk1FVjAAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Add Private Note'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,313" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="4beee8e1-c52c-4d4a-a7cf-d4e9e9a2f59c" ContentHash="6RW5jOuUkE2HRPvxzvk_sA" CvTextArea="752, 400, 107, 13" CvTextArgument="Add Private Note" CvType="Text" DesignTimeRectangle="754, 399, 104, 17" DesignTimeScaleFactor="1.100000023841858" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Add Private Note' tag='SPAN' type='' class='' check:innerText='Add Private Note' /&gt;" Guid="b20c348e-0f5a-40e7-a68a-cc22a511fdb2" InformativeScreenshot="535534c5159d15712764e874fdb1ed49.png" Reference="pNrPjBvsX0Gf1-QYH__y-g/QSOgmSd1skiyL-1JHxVoIg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="4beee8e1-c52c-4d4a-a7cf-d4e9e9a2f59c" CvElementArea="730, 395, 19, 20" CvType="Icon" DesignTimeRectangle="732, 397, 14, 17" FuzzySelectorArgument="&lt;webctrl class='entryTypePrivateNote' tag='SPAN' type='' aaname='' /&gt;" Guid="60e1554f-1a1e-4ee3-a9c4-55e441b1d267" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABIAAAAVCAYAAABLy77vAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACoSURBVDhPY2BgYPhPJYwhQC7GECAXI3O4/q89Kv//Gil4ERc2g/j/X3tn9P//M53/3x8TgV8Z/f9/kh+3QdcmYzgbK55zkq4GZYr/fw/yJjZ8X/x/MdEGOXD8nzJd4P9SbLiH478T0QYpMf0PCmf9H4UN+zP9VyTaIKp5jWouQgujlmhkdRBMnEFoXsOWJIgzCE0TNkw/g6iQ16iW+ynCGALkYgwBsjAAj0Fk4cD/m3QAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'DIV thread_89211225-300…'" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Text="[&quot;Hello,&quot; + vbCrLf + vbCrLf + &quot;Acct# &quot; + GlobalVariablesNamespace.GlobalVariables.CopyCustomerNumber + &quot; needs to have a SHIP_TO added and flagged YES for Esker.&quot; + vbCrLf + vbCrLf + &quot;address&quot;]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="729e76bc-94c4-476c-9ff9-874ca9281f46" ContentHash="9g02nycfxUKfqnJTAtd1KA" CvElementArea="572, 555, 1262, 100" CvType="InputBox" DesignTimeRectangle="572, 557, 1258, 99" DesignTimeScaleFactor="1.100000023841858" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aria-role='textbox' tag='DIV' type='' class='oj-flex-item selectable-text zoomFactor ck ck-content ck-editor__editable ck-rounded-corners ck-editor__editable_inline ck-blurred' aaname='' /&gt;" Guid="77394329-dfa7-4ac2-ae25-876596fe8520" InformativeScreenshot="cc078d3bb25bf5f4c36eaa0ba9d655e7.png" Reference="pNrPjBvsX0Gf1-QYH__y-g/Pwpk-cKCgECn3e2AQ15a0A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="729e76bc-94c4-476c-9ff9-874ca9281f46" CvElementArea="581, 526, 26, 20" CvType="Icon" DesignTimeRectangle="583, 525, 22, 22" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl type='' tag='svg' class='ck ck-icon ck-reset_all-excluded ck-icon_inherit-color ck-button__icon' aaname='' /&gt;" Guid="79388beb-f1f0-4988-8a1b-c68ec719f004" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACySURBVEhL7ZPbDYAgDEXdiTlYgzlYgzWYgzWYA3NNmphWeRT1Qz1JYyTq4Za6lIdY+MJd/CI1HxSFEIq1li8PUxV574sx5j5Rzrk45zYJrlcgRJAgASWJMTYrpcQ/IxAinAkkmqqlFyIkIhkSYbetQqrWeQoR4DLc90DvQMw5FBGjMjxz1sKqCNAE9ogANqUSjYCWqVrXA413q83Tov1405QeMSXCznt/2inRCL9IzftEKxtp/G1hLM7IAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'address'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Text="[GlobalVariablesNamespace.GlobalVariables.CopyCustomerAddress]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="7ec5c5c6-3c07-4414-ab8b-f6984eb46c6a" ContentHash="JbCYlzSAekSisIepamEsOQ" CvElementArea="571, 757, 1266, 107" CvType="InputBox" DesignTimeRectangle="584, 835, 1234, 17" DesignTimeScaleFactor="1.100000023841858" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='address' tag='DIV' type='' class='' check:innerText='address' /&gt;" Guid="ca56e8cd-ae5b-4257-ba9b-3646a00095be" InformativeScreenshot="65ad6235b6092ad00e5c87379a558919.png" Reference="pNrPjBvsX0Gf1-QYH__y-g/n8CIwtv4dUi45hXt9x4tYg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="7ec5c5c6-3c07-4414-ab8b-f6984eb46c6a" CvElementArea="571, 757, 1266, 107" CvType="InputBox" DesignTimeRectangle="572, 757, 1258, 107" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='textbox' tag='DIV' type='' class='oj-flex-item selectable-text zoomFactor ck ck-content ck-editor__editable ck-rounded-corners ck-editor__editable_inline ck-focused' aaname='' /&gt;" Guid="8ac029fd-9669-4d56-8a7e-9705f29bb23b" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,376" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_1" InteractionMode="HardwareEvents" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Shortcuts="[d(hk)][k(Enter)][u(hk)][d(hk)][k(Enter)][u(hk)]" Version="V4">
+              <uix:NKeyboardShortcuts.VerifyOptions>
+                <uix:VerifyExecutionOptions Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NKeyboardShortcuts.VerifyOptions>
+            </uix:NKeyboardShortcuts>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Into" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Text="[&quot;PO Attached&quot; + vbCrLf + &quot;Thank you&quot;]" Version="V4" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Contact'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,313" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="99abf63f-e3ce-4c5d-bfe8-3af26864f57c" ContentHash="TQ2P5k4jTEivMmZ3bOBwMA" CvTextArea="55, 487, 71, 19" CvTextArgument="%[Contactt]" CvType="Text" DesignTimeRectangle="45, 482, 251, 40" DesignTimeScaleFactor="1.100000023841858" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='Incident_CId6695' tag='DIV' type='' class='select-box-container' aaname='                              ' /&gt;" Guid="232309aa-531a-4b6f-b689-db2bb0dfc2b5" InformativeScreenshot="932034a5acfa81e930808d9764d9dfb7.png" Reference="pNrPjBvsX0Gf1-QYH__y-g/MzlBE2DOiEWc963vhE5IEQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="99abf63f-e3ce-4c5d-bfe8-3af26864f57c" CvElementArea="44, 472, 255, 50" CvType="InputBox" DesignTimeRectangle="60, 489, 60, 17" FuzzySelectorArgument="&lt;webctrl parentid='select-box-label-Incident_CId6695' tag='DIV' type='' class='oj-label-group' aaname='Contact' check:innerText='Contact' /&gt;" Guid="38382a1d-5bb3-4e24-ae12-60dfbe44370f" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Filter'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,313" sap2010:WorkflowViewState.IdRef="NClick_5" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="ca48eea0-64fd-4049-84d2-af3b25827164" ContentHash="FO0Wlez4ukiA_Xog_xRk2A" CvElementArea="42, 473, 260, 49" CvType="InputBox" DesignTimeRectangle="224, 486, 12, 23" DesignTimeScaleFactor="1.100000023841858" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl isleaf='1' parentid='filtersButtonIncident_CId6695' tag='SPAN' type='' class='icon-filter oj-fwk-icon' aaname='' /&gt;" Guid="af8fa41c-5ab0-4141-9516-7d13f84b99bc" InformativeScreenshot="7cc86b3789da0904ab0542cc679c61a1.png" Reference="pNrPjBvsX0Gf1-QYH__y-g/VEK7ZiyKnUazCFjyk9Mhsw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="ca48eea0-64fd-4049-84d2-af3b25827164" CvTextArea="54, 500, 157, 14" CvTextArgument="L-SM Account Number.." CvType="Text" DesignTimeRectangle="45, 492, 251, 28" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='select-box-input-Incident_CId6695' tag='INPUT' type='' class='select-box-input' placeholder='L-SM Account Number...' aaname='Contact' /&gt;" Guid="636b6d25-4d32-4f3f-8fa5-5ff454902720" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" sap2010:Annotation.AnnotationText="Replace this email below with yours" ClickBeforeMode="Single" DisplayName="Type Into 'Email Addresses'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,277" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Text="[GlobalVariablesNamespace.GlobalVariables.CopyUseremail]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="e6eb9e4e-1159-4300-a1a9-6d9203d0ca46" ContentHash="CNpeoQsXvEWnFALtMYTV5A" CvElementArea="551, 534, 202, 39" CvType="InputBox" DesignTimeRectangle="555, 537, 196, 34" DesignTimeScaleFactor="1.100000023841858" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='Filter_2_7697' tag='INPUT' type='text' class='oj-inputtext-input oj-text-field-input oj-component-initnode' aaname='Email Addresses' /&gt;" Guid="92495bc7-9131-4eb9-bd7f-c676dbb597be" InformativeScreenshot="0f0630f3974f60a8ae03e165b9018c4a.png" IsResponsive="True" Reference="pNrPjBvsX0Gf1-QYH__y-g/yXcXqQIln0i6fsmGQ3qqqA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="e6eb9e4e-1159-4300-a1a9-6d9203d0ca46" CvTextArea="552, 516, 103, 13" CvTextArgument="Email Addresses" CvType="Text" DesignTimeRectangle="554, 516, 198, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Email Addresses' tag='LABEL' type='' class='filterPrompt oj-label' check:innerText='Email Addresses' /&gt;" Guid="d081965e-f2e8-4282-b8fd-c69c276fe372" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Search'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,313" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="433c0443-e355-4d97-958a-bafda275da52" ContentHash="R4M71Y8YCUqdX3N5atkvhw" CvElementArea="343, 651, 101, 38" CvTextArea="387, 662, 42, 13" CvTextArgument="Search" CvType="Button" DesignTimeRectangle="388, 661, 41, 17" DesignTimeScaleFactor="1.100000023841858" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Search' tag='SPAN' type='' class='' check:innerText='Search' /&gt;" Guid="45b2b109-2337-4e8c-b52a-3a221e814179" InformativeScreenshot="d85b5296e08c6a93114a29761b923840.png" Reference="pNrPjBvsX0Gf1-QYH__y-g/m4F_gpub_U6LFTxWIXqvSg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="433c0443-e355-4d97-958a-bafda275da52" CvElementArea="343, 651, 101, 38" CvType="Button" DesignTimeRectangle="354, 669, 24, 1" FuzzySelectorArgument="&lt;webctrl type='' isleaf='1' tag='SPAN' class='fa fa-search fa-lg fa-fw oj-button-icon' aaname='' /&gt;" Guid="b4a8da55-d8cf-447c-b1df-bfc2185a98ea" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Select'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,313" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="4414a055-135f-45db-b876-35e3979a716a" ContentHash="WuzgWod8VUOelY_kznSmbw" CvElementArea="1497, 941, 95, 39" CvTextArea="1533, 954, 38, 13" CvTextArgument="Select" CvType="Button" DesignTimeRectangle="1534, 953, 36, 17" DesignTimeScaleFactor="1.100000023841858" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Select' tag='SPAN' type='' class='' check:innerText='Select' /&gt;" Guid="696e2221-c8d4-4300-ac53-5d856613ac1a" InformativeScreenshot="da4a90dd6ea338002bc03f9cfd0c5ea7.png" Reference="pNrPjBvsX0Gf1-QYH__y-g/rP9BsJUldkCl8Jmv1MqgIw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="4414a055-135f-45db-b876-35e3979a716a" CvElementArea="1497, 941, 95, 39" CvType="Button" DesignTimeRectangle="1508, 951, 18, 20" FuzzySelectorArgument="&lt;webctrl isleaf='1' parentid='selectButton' tag='SPAN' type='' class='fa fa-check fa-lg oj-button-icon oj-fwk-icon' aaname='' /&gt;" Guid="76ed65ae-6ef0-47d4-9d58-19afdba9623f" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Subject'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_5" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Text="[&quot;LICU - &quot; + GlobalVariablesNamespace.GlobalVariables.CopyCustomerNumber + &quot; - SHIP TO BUILD - &quot; + GlobalVariablesNamespace.GlobalVariables.CopyCustomerName]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="f1fc7ddb-1c70-40cb-84b2-49666541d900" ContentHash="UPFB_9i3WkKtwfHuZPHhrw" CvElementArea="44, 793, 256, 49" CvType="InputBox" DesignTimeRectangle="50, 806, 244, 24" DesignTimeScaleFactor="1.100000023841858" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='Incident_Subject6009' tag='INPUT' type='text' class='oj-inputtext-input oj-text-field-input oj-component-initnode' aaname='Subject' /&gt;" Guid="fbd997aa-f812-4e78-93a6-c58514770121" InformativeScreenshot="e37af530d45c776ddf525ab18cf00f6f.png" Reference="pNrPjBvsX0Gf1-QYH__y-g/oIZsDOdIWk2cwoGBEpt8BQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="f1fc7ddb-1c70-40cb-84b2-49666541d900" CvElementArea="44, 793, 256, 49" CvType="InputBox" DesignTimeRectangle="60, 809, 51, 16" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='InsideLabelContainer_Incident_Subject6009' tag='LABEL' type='' class='oj-label oj-label-nowrap' aaname='Subject' check:innerText='Subject' /&gt;" Guid="b78961ff-2607-46ee-ae57-02b608f26e8f" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '[No Value]'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,313" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="f44c3395-37d2-498f-861b-ac0fa3632e9b" ContentHash="0KF6YG82vEeLFE24MUneOA" CvElementArea="43, 809, 255, 50" CvType="InputBox" DesignTimeRectangle="45, 818, 218, 23" DesignTimeScaleFactor="1.100000023841858" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='searchInputContainer_Incident_QueueId1360' tag='DIV' type='' class='display-text' aaname='[No Value]' check:innerText='[No Value]' /&gt;" Guid="663d0428-76f7-4cda-a908-ffc18c5af598" InformativeScreenshot="395d303be50269a8e786865c30de3538.png" Reference="pNrPjBvsX0Gf1-QYH__y-g/sgNkCr1QJE-mtHF-p39V8A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="f44c3395-37d2-498f-861b-ac0fa3632e9b" CvElementArea="43, 809, 255, 50" CvType="InputBox" DesignTimeRectangle="60, 825, 52, 17" FuzzySelectorArgument="&lt;webctrl parentid='select-box-label-Incident_QueueId1360' tag='DIV' type='' class='oj-label-group' aaname='Queue' check:innerText='Queue' /&gt;" Guid="34f44283-0638-4ff7-bcfd-5cca40b7cbd1" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Queue'" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Text="class" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="icumed.custhelp.com/AgentWeb" ContentHash="VnUM6OpRLkqFQqec_k0VsQ" DesignTimeRectangle="45, 829, 251, 27" DesignTimeScaleFactor="1.100000023841858" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='select-box-input-Incident_QueueId1360' tag='INPUT' type='' class='select-box-input' placeholder='Search...' aaname='Queue' /&gt;" Guid="d59c39b2-81c5-49b3-b510-4617fddef63e" InformativeScreenshot="0407c2c0fca566c7796257815ca30b22.png" IsResponsive="True" Reference="pNrPjBvsX0Gf1-QYH__y-g/3uUarh-jVE-60ofHG7Waug" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector" Version="V4">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="1834a088-6ce6-4733-8476-da948b7f72e2" CvTextArea="54, 814, 51, 13" CvTextArgument="SM - CH" CvType="Text" DesignTimeRectangle="55, 816, 52, 13" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='select-box-label-Incident_QueueId1360' tag='LABEL' type='' class='oj-label oj-label-nowrap' aaname='' check:innerText='Queue' /&gt;" Guid="7e95908a-ab8b-4abc-955a-e915c2ba929d" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,397" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" InteractionMode="HardwareEvents" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Shortcuts="[d(hk)][k(Up)][u(hk)][d(hk)][k(Enter)][u(hk)][d(hk)][k(PgDn)][u(hk)]" Version="V4">
+              <uix:NKeyboardShortcuts.VerifyOptions>
+                <uix:VerifyExecutionOptions Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NKeyboardShortcuts.VerifyOptions>
+            </uix:NKeyboardShortcuts>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Category'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,313" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="3ac38cb4-a0a0-4693-a3b9-ee61587f13d3" ContentHash="616kXpgh0k-y8XJR1XZ_wA" CvElementArea="301, 419, 255, 51" CvType="InputBox" DesignTimeRectangle="302, 429, 251, 40" DesignTimeScaleFactor="1.100000023841858" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='Incident_CatId7680' tag='DIV' type='' class='select-box-container' aaname='                              ' /&gt;" Guid="c7c20870-b14e-4be7-aa49-97d4e7bd5603" InformativeScreenshot="c1a0a9197f32540078d97f0fa870a86e.png" Reference="pNrPjBvsX0Gf1-QYH__y-g/7TEByzkNvESdoi7XWFfkrA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="3ac38cb4-a0a0-4693-a3b9-ee61587f13d3" CvElementArea="301, 419, 255, 51" CvType="InputBox" DesignTimeRectangle="317, 436, 68, 16" FuzzySelectorArgument="&lt;webctrl parentid='select-box-label-Incident_CatId7680' tag='DIV' type='' class='oj-label-group' aaname='Category' check:innerText='Category' /&gt;" Guid="dda6b284-1bf7-4260-895d-9bc032196740" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Text="Esker" Version="V4">
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,376" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" InteractionMode="HardwareEvents" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Shortcuts="[d(hk)][k(Down)][u(hk)][d(hk)][k(Enter)][u(hk)]" Version="V4">
+              <uix:NKeyboardShortcuts.VerifyOptions>
+                <uix:VerifyExecutionOptions Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NKeyboardShortcuts.VerifyOptions>
+            </uix:NKeyboardShortcuts>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Potential Product Compl…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,313" sap2010:WorkflowViewState.IdRef="NClick_10" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="1a108760-9d04-46e1-bb25-425b9505c5d2" ContentHash="X_0zVGDwYkK4IbKjqoQmpQ" CvElementArea="44, 681, 256, 50" CvType="InputBox" DesignTimeRectangle="45, 691, 251, 39" DesignTimeScaleFactor="1.100000023841858" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='Incident_C_IncidentComplaint8955' tag='DIV' type='' class='select-box-container' aaname='                              ' /&gt;" Guid="99865d1e-b09e-4311-afaf-1d3dd4c55e3c" InformativeScreenshot="bd27551ec20d8b181774b4476ee54613.png" Reference="pNrPjBvsX0Gf1-QYH__y-g/vXAj5Mt6zkuEySoNPtfjuw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="1a108760-9d04-46e1-bb25-425b9505c5d2" CvElementArea="44, 681, 256, 50" CvType="InputBox" DesignTimeRectangle="60, 697, 183, 17" FuzzySelectorArgument="&lt;webctrl parentid='select-box-label-Incident_C_IncidentComplaint8955' tag='DIV' type='' class='oj-label-group' aaname='Potential Product Complaint' check:innerText='Potential Product Complaint' /&gt;" Guid="77064e78-20c8-4584-a902-64eb629fd1eb" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,397" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_4" InteractionMode="HardwareEvents" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Shortcuts="[d(hk)][k(Down)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(Enter)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)]" Version="V4">
+              <uix:NKeyboardShortcuts.VerifyOptions>
+                <uix:VerifyExecutionOptions Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NKeyboardShortcuts.VerifyOptions>
+            </uix:NKeyboardShortcuts>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,246" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Text="[GlobalVariablesNamespace.GlobalVariables.CopyCustomerPO]" Version="V4">
+              <uix:NTypeInto.VerifyOptions>
+                <uix:VerifyExecutionTypeIntoOptions Mode="Appears">
+                  <uix:VerifyExecutionTypeIntoOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionTypeIntoOptions.Retry>
+                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                </uix:VerifyExecutionTypeIntoOptions>
+              </uix:NTypeInto.VerifyOptions>
+            </uix:NTypeInto>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,376" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_5" InteractionMode="HardwareEvents" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Shortcuts="[d(hk)][k(PgUp)][u(hk)]" Version="V4">
+              <uix:NKeyboardShortcuts.VerifyOptions>
+                <uix:VerifyExecutionOptions Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NKeyboardShortcuts.VerifyOptions>
+            </uix:NKeyboardShortcuts>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Attachments'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,313" sap2010:WorkflowViewState.IdRef="NClick_11" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="b781d0fd-6729-49ba-942e-21c6f563692c" ContentHash="NIF8jItd1kOnhwmkoJzxCg" CvTextArea="1342, 535, 78, 13" CvTextArgument="Attachments" CvType="Text" DesignTimeRectangle="1330, 527, 124, 35" DesignTimeScaleFactor="1.100000023841858" ElementType="ListItem" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='Incident_-110_636196463397166585_12' tag='LI' type='' class='ws-tab-item' aaname='  ' check:innerText='Attachments 0' /&gt;" Guid="e430e0fa-6f6a-48d0-ba1b-8fa57d9ba614" InformativeScreenshot="e615b14e53269b9d27ac98c1a372d3de.png" Reference="pNrPjBvsX0Gf1-QYH__y-g/KRsCnKaRDkyNbCM5yHqQUQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="b781d0fd-6729-49ba-942e-21c6f563692c" CvTextArea="1342, 535, 78, 13" CvTextArgument="Attachments" CvType="Text" DesignTimeRectangle="1343, 534, 76, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='Incident_-110_636196463397166585_12' tag='SPAN' type='' class='tab-title' aaname='Attachments' check:innerText='Attachments' /&gt;" Guid="0322753b-c7c3-48b0-b8e8-472f3752d09d" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'DIV'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,313" sap2010:WorkflowViewState.IdRef="NClick_12" KeyModifiers="[UiPath.UIAutomationNext.Enums.NKeyModifiers.Win]" MouseButton="Left" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="fcb73931-010f-41b3-85a0-54953d3b3e3c" ContentHash="FTepYiYykUiGdOvLFi-4_Q" CvTextArea="614, 583, 45, 16" CvTextArgument="Upload" CvType="Text" DesignTimeRectangle="589, 582, 69, 18" DesignTimeScaleFactor="1.100000023841858" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='ws-toolbar-button-content-div' parentname='fileAttachmentCommandBarName' tag='DIV' type='' class='ws-toolbar-button-content' aaname='         Upload     ' check:innerText='Upload' /&gt;" Guid="29fd2c1f-2665-4b0c-afa4-afdb07d235d8" InformativeScreenshot="2be58a87e30f30f5544e2bb7602f9d10.png" Reference="pNrPjBvsX0Gf1-QYH__y-g/CVMqDp13K0GklEkkHOilBA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="fcb73931-010f-41b3-85a0-54953d3b3e3c" CvElementArea="587, 579, 22, 21" CvType="Icon" DesignTimeRectangle="589, 582, 26, 18" FuzzySelectorArgument="&lt;webctrl parentid='ws-toolbar-button-content-div' parentname='fileAttachmentCommandBarName' tag='DIV' type='' class='ws-toolbar-button-image bui-icon upload-icon' aaname='' /&gt;" Guid="0b41db95-8406-4128-9e18-ca17ed2920a3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAB4AAAAWCAYAAADXYyzPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD/SURBVEhL7ZSxCYQwFIbjClZWTuIIriG4gRMIOoFDaGXhJOICimBlZ2HhO/4cSs67M8kZtLkPwiMv+flIMDK6CbZvXIWyeFkWquuaVxMoiSFL05Qsy+LVhFwqXqWMsW2YkB+KxZM6jsOlqGdO3nUd5Xn+XSxKwzCkoii4GBXzX+VlWT5vbr8g0jQNxXFM8zxvAVTM0ce6LkpiEVF8hr9YiilxVVXv4mEYyPM8yrJMbHOOxNiPHPIy8EHatv0q7vueXNelJEnENmd9f6h7sB855GVM00S+76uLj9ARg7Zt7xGDj+L1n6wzTonHcaQoiigIAu2BHPKqKD8n0/zFl/EAvBtn6ghrs/cAAAAASUVORK5CYII=" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts 'Open'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,422" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_6" InteractionMode="HardwareEvents" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Enter)][u(hk)]" Version="V4">
+              <uix:NKeyboardShortcuts.Target>
+                <uix:TargetAnchorable BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="4b057a2d-8858-4b0a-9bcf-b2904789565b" ContentHash="0KupDtQPakO45kVzny-nGw" CvElementArea="195, 459, 542, 26" CvType="InputBox" DesignTimeRectangle="201, 465, 514, 15" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;" Guid="0a51230a-7d90-4c4d-a2f1-a449c40e68fb" InformativeScreenshot="9affa7c98539a320233625d17a1c70e3.png" IsResponsive="True" Reference="pNrPjBvsX0Gf1-QYH__y-g/cjx5KKpRRUCTiUz0QnJKiA" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="4b057a2d-8858-4b0a-9bcf-b2904789565b" CvTextArea="137, 465, 55, 12" CvTextArgument="File name:" CvType="Text" DesignTimeRectangle="138, 464, 54, 15" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlid='1090' title='File &amp;amp;name:' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1090' title='File &amp;amp;name:' check:text='File &amp;amp;name:' /&gt;" Guid="5d6a4b9b-8d0f-4c7a-877c-3bc0ec318de3" SearchSteps="Selector, FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NKeyboardShortcuts.Target>
+              <uix:NKeyboardShortcuts.VerifyOptions>
+                <uix:VerifyExecutionOptions Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Target>
+                    <uix:TargetAnchorable BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="d5c2b3a8-08b7-44e4-a7e5-01644aaf3058" ContentHash="57F9CYmTLUa3AsfNvzQfHg" CvTextArea="37, 9, 30, 15" CvTextArgument="Open" CvType="Text" DesignTimeRectangle="37, 9, 30, 15" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="06a801ac-5a05-4d2e-bde2-24e87374a5ce" InformativeScreenshot="0cd0217bc6da5de07bc23c0411ab739a.png" Reference="pNrPjBvsX0Gf1-QYH__y-g/k-bElHA2G0-wju9sCl6jRg" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4">
+                      <uix:TargetAnchorable.Anchors>
+                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                          <uix:Target CVScreenId="d5c2b3a8-08b7-44e4-a7e5-01644aaf3058" CvElementArea="14, 5, 20, 21" CvType="Icon" DesignTimeRectangle="8, 8, 22, 22" FullSelectorArgument="&lt;ctrl automationid='MenuBar' /&gt;&lt;ctrl name='System' role='menu item' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MenuBar' /&gt;&lt;ctrl name='System' role='menu item' automationid='' check:text='System' /&gt;" Guid="06fd0b2c-684b-4968-aa91-c7922304403b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALcSURBVEhL7dFbSJNxGMfxXRdIGElGBzU3zLU5Nw3zPA/NI0UJHSClLLop66aLPEJWehGzNdLyVHYk8Cq8kA7OedxIrCBZiIjMndQdnaLtffUX++9A5s27QV75wud99o7/+3xhYzmdTmwF1r9fMOUYGYSlqQEL54swl5WA+exEzJefg+VeNRxTk5vOBxxaNBlhaWqESSzySoAxU7iBIUMIs7SBnA0q5H5x7vJZGDNFnoVkaTxZTGZ6PPR/MZaV+GMBhczSB9CnCTbQpQqg883UOMym8DHrmyl8zD+8H1hocm4aXVfSyBL3Ym0KH8aSPKyOf4Vu1o7FlXWs2xRY+1YMWi3CmloEWhWPNbUQy6YB5qHKQSkkLUXQiOOgTeZBf0ZCAteeLyGxzk5caHFCb7aDHs8DNcoDPconVifrmYdKPlRA8OokGm+kYSaJi2XlFxRJHRDW2iGstfld7XRi3a4GPRLr5xrLZh7ivSgGv6sYSc8KoMqOg962hrgaKyGosUFApudZt2ADNcwBPcwBNcwGNcRmHjraWQiuV3mNGFqtDbxqK3hVFvCqrJ7P5NlK/i96KMorkmAcynlXBm5HAY605yO2PR9qww+UtTkQW2nx41ZacFpux7q5F/TgQa8DcI3lMg/dVcoR0ypBTGsekfW2FBqTA6fkNsTcMROlbQ5oTIug1MdAKfeBUoaDHgjH6sR15qH+qVFwWnLBeXrCP8WvL+LT9DD5qdxRlf47ZD2FoJRhoJVhoPr3EEtmDfOQW51ChujmHLCbcxH9JGeT9NY0zHzcC7p/N6j+UFCKUPzW3CbvBhQyWEwoeFOOKHkWDsuzyCQei8ns6GaDVuwCpQgB1RcCl+o4luz6wEO+WPVnKSIeZSJC5hEpEyO1JRlU306vHViduOWPBBXy+WWYws2eekheXsIhaQbed++Ha4iNlZ8VWNb3bjofdChQ26GgbYeCtnUhFovlvuF/X38AtWwk93ac6QwAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, CV" />
+                        </scg:List>
+                      </uix:TargetAnchorable.Anchors>
+                    </uix:TargetAnchorable>
+                  </uix:VerifyExecutionOptions.Target>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NKeyboardShortcuts.VerifyOptions>
+            </uix:NKeyboardShortcuts>
+            <uix:NTypeInto ActivateBefore="True" sap2010:Annotation.AnnotationText="Change this path to the folder you put you PO's in and make sure the folder only has the one PO.&#xA;" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into - Path" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,307" sap2010:WorkflowViewState.IdRef="NTypeInto_9" InteractionMode="HardwareEvents" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Text="C:\Users\SG00059661\OneDrive - ICU Medical Inc\Documents\For UiPath" Version="V5">
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+            </uix:NTypeInto>
+            <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts 'Open'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,388" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_7" InteractionMode="HardwareEvents" ScopeIdentifier="68d070a2-4bbe-449d-9de1-0f03023ac056" Shortcuts="[d(hk)][k(Enter)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][d(ctrl)]a[u(ctrl)][u(hk)][d(hk)][k(Enter)][u(hk)]" Version="V4">
+              <uix:NKeyboardShortcuts.VerifyOptions>
+                <uix:VerifyExecutionOptions Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NKeyboardShortcuts.VerifyOptions>
+            </uix:NKeyboardShortcuts>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OCREngine>
+        <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+          <ActivityFunc.Argument>
+            <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+          </ActivityFunc.Argument>
+        </ActivityFunc>
+      </uix:NApplicationCard.OCREngine>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="qB2X8s9C40a6pNBtP-R_rA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKpSURBVDhPnY5JSNRhGIdfOzg3KU+hOIiQoo42OCqljIiiOGmJImWECyKGIh46dIioky3QnoewQEgqIojIoGmRCFPcMnNJihrFdsdxm6WZ6T8+8f0xaKEOvvAc3u/3ex8+mYmLw7lrF3M2G86CApx5eczn5uKyWnFt385CZiaLFgtLZjNLKSksJyaykpCAe8sWFmJikPc2G6GDBwkdOECouZnQ/v2E6urQqqrQKivRysvRdu5EKypCy89Hy8lBy8pCS0/Hv3UrMpOTQ7ClhWBjI8H6egLV1QT27iVQUUGgtJTAjh34Cwrw5+biz87Gn5mJPy2Nb0lJrERGIu+ysvA1NOCrrcW7bx/e3bvxlpXhKS7GU1iIJy8Pj9WKe9s23BYL7tRUVoxGlsLDmRdB3mRksFxVxfKePbgPH8bX00MwGPyLgMuFx25nzmrlswhfRfioBJNmM86KCpZaW1ldXdXxjYzgHR7GOzSEd3AQz8AAnt5ePfu+sMB0bCzTIjiUYNRk4kNJCd+/fCHkdvO2uprx9HTGzWbGTSbG4uN5sXEjwyJM19aiZr6jgzERJpVgMCGBt/n5un2+q4shi4XR1FTGk5MZMxp5bjDox4pBEdwjI/gcDnrX3qQnLo6x7Gx8Ph+f7HaeJSejpAObNtEbFqYXf/JMhMWpKZz9/TwU4akSPDIa6bdYmO3uxuVyMdTUhN1g4IGIXvqV121teudlayt3RLArwd2oKB6ZTDyx2XBMTjI7O8ubvj4mbt78DcfEhJ69un+faxERXBfhthLc2LyZWzExXDUY6IyO5vGhQ/R3duoM/MG9mhraIyK4JMIVEa4pQbvBQNuGDVwU4YIIZ0U4LcKpf6Cyc2vdy0qglhO/cFyEY/9B5QrVPa8EajmyTk4qwRkRjq4T9fsfoM9OoYEBxcsAAAAASUVORK5CYII=" InformativeScreenshot="23fbd8e59c4a430a333c3f89ab72f0fb.jpg" Reference="pNrPjBvsX0Gf1-QYH__y-g/ATiWVJFMmk-PdWxetbKYhw" Selector="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" Url="https://icumed.custhelp.com/AgentWeb/" Version="V1">
+          <uix:TargetApp.Arguments>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.Arguments>
+          <uix:TargetApp.WorkingDirectory>
+            <InArgument x:TypeArguments="x:String" />
+          </uix:TargetApp.WorkingDirectory>
+        </uix:TargetApp>
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

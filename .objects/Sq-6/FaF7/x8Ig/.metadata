@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Edge Esker on Demand - Customer orders(1)",
+  "Type": "Screen",
+  "Id": "x8IgL6VbDkGo0dS3N0wUNQ",
+  "Reference": "pNrPjBvsX0Gf1-QYH__y-g/x8IgL6VbDkGo0dS3N0wUNQ",
+  "ParentRef": "pNrPjBvsX0Gf1-QYH__y-g/FaF7MUu0ME6s7wuPeJmLHg",
+  "Created": "2026-04-14T20:43:48.4507439Z",
+  "Updated": "2026-04-14T20:43:48.4507439Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

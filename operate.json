@@ -1,0 +1,26 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/operate",
+  "contentType": "Process",
+  "projectId": "a31d965b-401f-4cd7-bcca-b1abbda90b6f",
+  "main": "Stacey G\\2. Interaction Builder - Chrome - Stacey.xaml",
+  "dependencies": {
+    "UiPath.ComplexScenarios.Activities": "[1.5.0]",
+    "UiPath.Excel.Activities": "[3.0.1]",
+    "UiPath.Form.Activities": "25.4.3",
+    "UiPath.Mail.Activities": "[2.0.10]",
+    "UiPath.Presentations.Activities": "[1.14.2]",
+    "UiPath.System.Activities.Runtime": "25.10.3",
+    "UiPath.UIAutomation.Activities.Runtime": "25.10.28",
+    "UiPath.Word.Activities": "[1.20.3]"
+  },
+  "targetFramework": "Windows",
+  "runtimeOptions": {
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "robotVersion": "26.0.198"
+  },
+  "designOptions": {
+    "projectProfile": "Business",
+    "fileInfoCollection": []
+  }
+}

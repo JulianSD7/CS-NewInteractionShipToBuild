@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="0ZwulrXUr0KHdhiL0oq2sg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="dbcd648a-f32c-4ba9-a25a-e409f3b6d34f" CvElementArea="195, 459, 542, 26" CvType="InputBox" DesignTimeRectangle="194, 459, 543, 26" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="d633ca89-efb6-45a3-9168-98cbc422c597" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="dbcd648a-f32c-4ba9-a25a-e409f3b6d34f" CvTextArea="137, 465, 55, 12" CvTextArgument="File name:" CvType="Text" DesignTimeRectangle="138, 464, 54, 15" ElementType="Text" FullSelectorArgument="&lt;wnd ctrlid='1090' title='File &amp;amp;name:' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1090' title='File &amp;amp;name:' check:text='File &amp;amp;name:' /&gt;" Guid="29b6f446-7e0e-474c-95fa-d6ce71ba7cad" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="50238cccbe0b46316f84aa74238aa084.png" xmlns="">0Q4Yfouj0qUWD1ZDSJMy52Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardShortcut</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

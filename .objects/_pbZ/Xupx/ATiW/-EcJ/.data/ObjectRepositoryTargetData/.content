@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="QPJUaYZ_ikS45pGWTkVXwQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="55df278b-5a69-4f86-9b42-2e07c980cd6c" CvElementArea="575, 556, 1255, 190" CvType="InputBox" DesignTimeRectangle="584, 701, 1234, 17" DesignTimeScaleFactor="1.100000023841858" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Thank you' tag='DIV' type='' class='' check:innerText='Thank you' /&gt;" Guid="2f649667-3c04-46e0-b449-2e8c9fc2a432" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="55df278b-5a69-4f86-9b42-2e07c980cd6c" CvElementArea="581, 526, 26, 20" CvType="Icon" DesignTimeRectangle="583, 525, 22, 22" ElementType="Icon" FuzzySelectorArgument="&lt;webctrl type='' tag='svg' class='ck ck-icon ck-reset_all-excluded ck-icon_inherit-color ck-button__icon' aaname='' /&gt;" Guid="670000f6-2ccf-40f7-8243-beaa3c95b2e0" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACySURBVEhL7ZPbDYAgDEXdiTlYgzlYgzWYgzWYA3NNmphWeRT1Qz1JYyTq4Za6lIdY+MJd/CI1HxSFEIq1li8PUxV574sx5j5Rzrk45zYJrlcgRJAgASWJMTYrpcQ/IxAinAkkmqqlFyIkIhkSYbetQqrWeQoR4DLc90DvQMw5FBGjMjxz1sKqCNAE9ogANqUSjYCWqVrXA413q83Tov1405QeMSXCznt/2inRCL9IzftEKxtp/G1hLM7IAAAAAElFTkSuQmCC" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b38578e4bcbc09e1259ab3233a61ecd9.png" xmlns="">0TQRJTDCFu0uzJvwsS9glfw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

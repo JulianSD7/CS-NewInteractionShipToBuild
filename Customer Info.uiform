@@ -1,0 +1,53 @@
+﻿{
+  "Metadata": {
+    "Id": "f5aafe95-1dcb-44a0-939a-97319fc09c3f",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "Customer Info",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "PO",
+        "tableView": true,
+        "key": "PO",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Customer Number",
+        "tableView": true,
+        "key": "CustomerNumber",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Customer Name",
+        "tableView": true,
+        "key": "CustomerName",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Address",
+        "tableView": true,
+        "key": "address2",
+        "type": "textarea",
+        "input": true
+      },
+      {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+      }
+    ]
+  }
+}

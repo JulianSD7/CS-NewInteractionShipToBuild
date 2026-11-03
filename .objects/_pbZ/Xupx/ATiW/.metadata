@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Use Chrome - SVC",
+  "Type": "Screen",
+  "Id": "ATiWVJFMmk-PdWxetbKYhw",
+  "Reference": "pNrPjBvsX0Gf1-QYH__y-g/ATiWVJFMmk-PdWxetbKYhw",
+  "ParentRef": "pNrPjBvsX0Gf1-QYH__y-g/Xupx27b5qEO-8VqbAB25TA",
+  "Created": "2025-12-05T20:22:53.8435909Z",
+  "Updated": "2025-12-05T20:22:53.8435909Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

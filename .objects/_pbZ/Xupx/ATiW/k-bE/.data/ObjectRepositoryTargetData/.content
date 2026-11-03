@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="57F9CYmTLUa3AsfNvzQfHg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="d5c2b3a8-08b7-44e4-a7e5-01644aaf3058" CvTextArea="37, 9, 30, 15" CvTextArgument="Open" CvType="Text" DesignTimeRectangle="37, 9, 30, 15" DesignTimeScaleFactor="1" ElementType="Text" Guid="06a801ac-5a05-4d2e-bde2-24e87374a5ce" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d5c2b3a8-08b7-44e4-a7e5-01644aaf3058" CvElementArea="14, 5, 20, 21" CvType="Icon" DesignTimeRectangle="8, 8, 22, 22" FullSelectorArgument="&lt;ctrl automationid='MenuBar' /&gt;&lt;ctrl name='System' role='menu item' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MenuBar' /&gt;&lt;ctrl name='System' role='menu item' automationid='' check:text='System' /&gt;" Guid="06fd0b2c-684b-4968-aa91-c7922304403b" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALcSURBVEhL7dFbSJNxGMfxXRdIGElGBzU3zLU5Nw3zPA/NI0UJHSClLLop66aLPEJWehGzNdLyVHYk8Cq8kA7OedxIrCBZiIjMndQdnaLtffUX++9A5s27QV75wud99o7/+3xhYzmdTmwF1r9fMOUYGYSlqQEL54swl5WA+exEzJefg+VeNRxTk5vOBxxaNBlhaWqESSzySoAxU7iBIUMIs7SBnA0q5H5x7vJZGDNFnoVkaTxZTGZ6PPR/MZaV+GMBhczSB9CnCTbQpQqg883UOMym8DHrmyl8zD+8H1hocm4aXVfSyBL3Ym0KH8aSPKyOf4Vu1o7FlXWs2xRY+1YMWi3CmloEWhWPNbUQy6YB5qHKQSkkLUXQiOOgTeZBf0ZCAteeLyGxzk5caHFCb7aDHs8DNcoDPconVifrmYdKPlRA8OokGm+kYSaJi2XlFxRJHRDW2iGstfld7XRi3a4GPRLr5xrLZh7ivSgGv6sYSc8KoMqOg962hrgaKyGosUFApudZt2ADNcwBPcwBNcwGNcRmHjraWQiuV3mNGFqtDbxqK3hVFvCqrJ7P5NlK/i96KMorkmAcynlXBm5HAY605yO2PR9qww+UtTkQW2nx41ZacFpux7q5F/TgQa8DcI3lMg/dVcoR0ypBTGsekfW2FBqTA6fkNsTcMROlbQ5oTIug1MdAKfeBUoaDHgjH6sR15qH+qVFwWnLBeXrCP8WvL+LT9DD5qdxRlf47ZD2FoJRhoJVhoPr3EEtmDfOQW51ChujmHLCbcxH9JGeT9NY0zHzcC7p/N6j+UFCKUPzW3CbvBhQyWEwoeFOOKHkWDsuzyCQei8ns6GaDVuwCpQgB1RcCl+o4luz6wEO+WPVnKSIeZSJC5hEpEyO1JRlU306vHViduOWPBBXy+WWYws2eekheXsIhaQbed++Ha4iNlZ8VWNb3bjofdChQ26GgbYeCtnUhFovlvuF/X38AtWwk93ac6QwAAAAASUVORK5CYII=" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0cd0217bc6da5de07bc23c0411ab739a.png" xmlns="">0WPXouo3zTUGl8FlEBby9CQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardShortcut</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

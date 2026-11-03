@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Shipping address",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "CLW_2Bm3CkG2kQEyeqVDtw",
+  "Reference": "pNrPjBvsX0Gf1-QYH__y-g/CLW_2Bm3CkG2kQEyeqVDtw",
+  "ParentRef": "pNrPjBvsX0Gf1-QYH__y-g/SW-2iBA1FkaiXRRYY8IYHQ",
+  "Created": "2026-02-27T20:17:27.0942188Z",
+  "Updated": "2026-02-27T20:17:27.0942188Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.21.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

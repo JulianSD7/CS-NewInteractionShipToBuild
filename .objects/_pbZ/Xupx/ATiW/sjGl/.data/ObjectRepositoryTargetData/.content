@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="aQw25ZRTw0KRFd6WkCGk7g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="icumed.custhelp.com/AgentWeb" DesignTimeRectangle="152, 41, 505, 34" DesignTimeScaleFactor="1" ElementType="Toolbar" FullSelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='1001' title='Address: C:\Users\AS00030180\OneDrive - ICU Medical Inc\Desktop\*' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='1001' title='Address: C:\Users\AS00030180\OneDrive - ICU Medical Inc\Desktop\*' check:text='Address: C:\Users\AS00030180\OneDrive - ICU Medical Inc\Desktop\ESK Downloads-Interactions' /&gt;" Guid="0253f5e9-d658-4abf-830f-772f67494dcc" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="69dcfd6b-46d3-407c-b61f-29ec5f398440" CvElementArea="143, 40, 548, 35" CvType="InputBox" DesignTimeRectangle="172, 41, 15, 33" ElementType="Button" FullSelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='1001' title='Address: C:\Users\AS00030180\OneDrive - ICU Medical Inc\Desktop\*' /&gt;&lt;ctrl name='Address: C:\Users\AS00030180\OneDrive - ICU Medical Inc\Desktop\*' role='tool bar' /&gt;&lt;ctrl name='All locations' role='split button' /&gt;&lt;ctrl name='Open' role='drop down button' /&gt;" FuzzySelectorArgument="&lt;wnd aaname='Loading' cls='msctls_progress32' /&gt;&lt;wnd ctrlid='1001' title='Address: C:\Users\AS00030180\OneDrive - ICU Medical Inc\Desktop\*' /&gt;&lt;ctrl name='Address: C:\Users\AS00030180\OneDrive - ICU Medical Inc\Desktop\*' role='tool bar' /&gt;&lt;ctrl name='All locations' role='split button' /&gt;&lt;ctrl name='Open' role='drop down button' automationid='' check:text='Open' /&gt;" Guid="9ec359ef-3c69-4636-b8e2-c40065113101" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c936c31dfb78c1925edcf94089cee778.png" xmlns="">0CQAYbjiK-EiP9h3jqORkxg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

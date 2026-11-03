@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Label 'Open'",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "k-bElHA2G0-wju9sCl6jRg",
+  "Reference": "pNrPjBvsX0Gf1-QYH__y-g/k-bElHA2G0-wju9sCl6jRg",
+  "ParentRef": "pNrPjBvsX0Gf1-QYH__y-g/ATiWVJFMmk-PdWxetbKYhw",
+  "Created": "2026-01-16T19:07:42.8721451Z",
+  "Updated": "2026-01-16T19:07:42.8721451Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

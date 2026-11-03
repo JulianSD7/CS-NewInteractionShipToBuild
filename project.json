@@ -1,0 +1,119 @@
+{
+  "name": "SVC_New Interaction_Ship to build",
+  "projectId": "a31d965b-401f-4cd7-bcca-b1abbda90b6f",
+  "previousProjectId": "e835be87-23f2-4064-bbc6-a0bb8f1c4530",
+  "description": "Task",
+  "main": "Stacey G\\2. Interaction Builder - Chrome - Stacey.xaml",
+  "dependencies": {
+    "UiPath.ComplexScenarios.Activities": "[1.5.0]",
+    "UiPath.Excel.Activities": "[3.0.1]",
+    "UiPath.Form.Activities": "25.4.3",
+    "UiPath.Mail.Activities": "[2.0.10]",
+    "UiPath.Presentations.Activities": "[1.14.2]",
+    "UiPath.System.Activities": "25.10.3",
+    "UiPath.UIAutomation.Activities": "25.10.28",
+    "UiPath.Word.Activities": "[1.20.3]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "25.10.1.0",
+  "projectVersion": "1.0.24",
+  "runtimeOptions": {
+    "exceptionHandlerWorkflow": "Main - Ship to build SVC interaction - Alexis Sanchez.xaml",
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "NewtonsoftJson",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession",
+    "robotVersion": "26.0.198"
+  },
+  "designOptions": {
+    "projectProfile": "Business",
+    "outputType": "Process",
+    "libraryOptions": {
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": [
+        "IP Scan the set asides.xaml",
+        "Main - Form + Ship to builder.xaml",
+        "GlobalHandlerX.xaml",
+        "Main_Scan+Interaction.xaml",
+        "Main - Ship to build SVC interaction - Alexis Sanchez - With Esker Scan.xaml",
+        "Stacey G/1. Main - Form + Ship to builder - Stacey Gibbish.xaml",
+        "Stacey G/2. Interaction Builder - Chrome - Stacey.xaml",
+        "2. Interaction Builder - Chrome.xaml",
+        "1. Scan PO in Esker.xaml"
+      ]
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "arguments": {
+    "input": [],
+    "output": []
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main_Scan+Interaction.xaml",
+      "uniqueId": "a5d71e7b-81a5-4c56-9e76-fe472a1e8a55",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Main - Ship to build SVC interaction - Alexis Sanchez - With Esker Scan.xaml",
+      "uniqueId": "ec3cdac5-3386-40f7-a72f-496a59fbb253",
+      "input": [
+        {
+          "name": "errorInfo",
+          "displayName": "errorInfo",
+          "type": "UiPath.Activities.Contracts.ExceptionHandlerArgs, UiPath.Activities.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "required": false,
+          "hasDefault": false
+        }
+      ],
+      "output": [
+        {
+          "name": "result",
+          "displayName": "result",
+          "type": "UiPath.Activities.Contracts.ErrorAction, UiPath.Activities.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+        }
+      ]
+    },
+    {
+      "filePath": "Main - Form + Ship to builder.xaml",
+      "uniqueId": "88ed2ada-049f-4ad7-9dca-7a9e556805cc",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Stacey G\\1. Main - Form + Ship to builder - Stacey Gibbish.xaml",
+      "uniqueId": "ea2d26b1-1f1f-4972-9ed2-92ab9f36567b",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Stacey G\\2. Interaction Builder - Chrome - Stacey.xaml",
+      "uniqueId": "dfafe4b6-f897-4e02-8006-8c8327d7c44d",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

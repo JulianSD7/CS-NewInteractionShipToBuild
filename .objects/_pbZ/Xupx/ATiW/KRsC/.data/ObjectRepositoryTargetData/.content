@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="NIF8jItd1kOnhwmkoJzxCg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="icumed.custhelp.com/AgentWeb" CVScreenId="b781d0fd-6729-49ba-942e-21c6f563692c" CvTextArea="1342, 535, 78, 13" CvTextArgument="Attachments" CvType="Text" DesignTimeRectangle="1330, 527, 124, 35" DesignTimeScaleFactor="1.100000023841858" ElementType="ListItem" FuzzySelectorArgument="&lt;webctrl id='Incident_-110_636196463397166585_12' tag='LI' type='' class='ws-tab-item' aaname='  ' check:innerText='Attachments 0' /&gt;" Guid="e430e0fa-6f6a-48d0-ba1b-8fa57d9ba614" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Oracle ® Service Cloud | icumedical' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b781d0fd-6729-49ba-942e-21c6f563692c" CvTextArea="1342, 535, 78, 13" CvTextArgument="Attachments" CvType="Text" DesignTimeRectangle="1343, 534, 76, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='Incident_-110_636196463397166585_12' tag='SPAN' type='' class='tab-title' aaname='Attachments' check:innerText='Attachments' /&gt;" Guid="0322753b-c7c3-48b0-b8e8-472f3752d09d" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e615b14e53269b9d27ac98c1a372d3de.png" xmlns="">0VcwBANOFR0uIPfZmF8__ag</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

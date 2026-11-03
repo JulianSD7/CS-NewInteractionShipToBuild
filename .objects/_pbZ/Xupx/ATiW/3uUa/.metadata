@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Queue",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "3uUarh-jVE-60ofHG7Waug",
+  "Reference": "pNrPjBvsX0Gf1-QYH__y-g/3uUarh-jVE-60ofHG7Waug",
+  "ParentRef": "pNrPjBvsX0Gf1-QYH__y-g/ATiWVJFMmk-PdWxetbKYhw",
+  "Created": "2025-12-10T22:34:10.4561133Z",
+  "Updated": "2025-12-10T22:34:10.4561133Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.12.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
